@@ -1,0 +1,3 @@
+ab -> bc
+ba -> fc
+ac -> fb
