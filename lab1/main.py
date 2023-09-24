@@ -173,12 +173,15 @@ def get_polish_rool(rool):
     splitted_rool = rool.split(" -> ")
     compositions_coefficients_1 = get_compositions_coefficients(splitted_rool[0])
     compositions_coefficients_2 = get_compositions_coefficients(splitted_rool[1])
-    composition_1 = get_composition(compositions_coefficients_1[0], compositions_coefficients_1[1])
-    composition_2 = get_composition(compositions_coefficients_2[0], compositions_coefficients_2[1])
-    for i in range(2, len(compositions_coefficients_1)):
-        composition_1 = get_composition(composition_1, compositions_coefficients_1[i])
-    for i in range(2, len(compositions_coefficients_2)):
-        composition_2 = get_composition(composition_2, compositions_coefficients_2[i])
+    composition_1, composition_2 = compositions_coefficients_1[0], compositions_coefficients_2[0]
+    if len(compositions_coefficients_1) > 1:
+        composition_1 = get_composition(compositions_coefficients_1[0], compositions_coefficients_1[1])
+        for i in range(2, len(compositions_coefficients_1)):
+            composition_1 = get_composition(composition_1, compositions_coefficients_1[i])
+    if len(compositions_coefficients_2) > 1:
+        composition_2 = get_composition(compositions_coefficients_2[0], compositions_coefficients_2[1])
+        for i in range(2, len(compositions_coefficients_2)):
+            composition_2 = get_composition(composition_2, compositions_coefficients_2[i])
     composition_1 = get_polish_composition(composition_1)
     composition_2 = get_polish_composition(composition_2)
     return composition_1, composition_2
