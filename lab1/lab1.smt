@@ -7,6 +7,6 @@
 (assert (>= b1f 0))
 (declare-const b2f Int)
 (assert (>= b2f 0))
-(assert (or (and (or (> a1f a1f) (and (= a1f a1f) (> a2f a2f))) (or (>= b1f b1f) (and (= b1f b1f) (>= b2f b2f)))) (and (and (= a1f a1f) (= a2f a2f)) (or (> b1f b1f) (and (= b1f b1f) (> b2f b2f))))))
+(assert (or (and (or (> a1f 0) (and (= a1f 0) (or (> (* a1f a2f) a1f) (and (= (* a1f a2f) a1f) (> a2f a2f))))) (or (>= b1f 0) (and (= b1f 0) (or (>= (+ (* a1f b2f) b1f) b1f) (and (= (+ (* a1f b2f) b1f) b1f) (>= b2f b2f)))))) (and (and (= a1f 0) (= (* a1f a2f) a1f) (= a2f a2f)) (or (> b1f 0) (and (= b1f 0) (or (> (+ (* a1f b2f) b1f) b1f) (and (= (+ (* a1f b2f) b1f) b1f) (> b2f b2f))))))))
 (check-sat)
 (get-model)
