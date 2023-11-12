@@ -1,0 +1,338 @@
+Empty regex
+Results for (?=da)c|c|((?=a$)d)*d: 
+Words true: 25/25
+OK
+
+Test output regex ((c)|d)
+OK
+
+===========================================================
+Results for (((?=(?=a$)d|d)b|d|d)*)*: 
+Words true: 25/25
+OK
+
+Test output regex ((|d(d)*)|(d|d(d)*d)((d|d(d)*d))*(|d(d)*))
+OK
+
+===========================================================
+Results for ((d|c)*|db|(a|a)*|d)*: 
+Words true: 25/25
+OK
+
+Test output regex ((((((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))))|((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))(((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))))*((((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*)))))|(((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))))|((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))(((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))))*((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d)))))((((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))))|((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))(((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))))*((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))))))*(((((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))))|((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))(((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))))*((((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*)))|(((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a)))((((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((a|d(d)*a)|(c|d(d)*c)((c|d(d)*c))*(a|d(d)*a))))*(((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))|(((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b)((((d|d(d)*d)|(c|d(d)*c)((c|d(d)*c))*(d|d(d)*d))b))*((|d(d)*)|(c|d(d)*c)((c|d(d)*c))*(|d(d)*))))))
+OK
+
+===========================================================
+Results for ((ca)*cb|a|ac)*: 
+Words true: 25/25
+OK
+
+Test output regex (((|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*)|(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))*(|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*))|(((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)|(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))*(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))c)((((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)|(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))*(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))c))*((|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*)|(a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a)((a|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*a))*(|((c|(ca)((ca))*c)b)(((c|(ca)((ca))*c)b))*)))
+OK
+
+===========================================================
+Results for ((a|a)*|a)*|a|(?=d)c: 
+Words true: 25/25
+OK
+
+Test output regex ((((|a(a)*)|(a|a(a)*a)((a|a(a)*a))*(|a(a)*))|((a|a(a)*a)|(a|a(a)*a)((a|a(a)*a))*(a|a(a)*a))(((a|a(a)*a)|(a|a(a)*a)((a|a(a)*a))*(a|a(a)*a)))*((|a(a)*)|(a|a(a)*a)((a|a(a)*a))*(|a(a)*)))|a)
+OK
+
+===========================================================
+Results for (?=b)cccb|b: 
+Words true: 25/25
+OK
+
+Test output regex (b)
+OK
+
+===========================================================
+Results for ((a|d)*)*|ac|(((?=a$)c)*)*|d: 
+Words true: 25/25
+OK
+
+Test output regex ((((|a(a)*)|(d|a(a)*d)((d|a(a)*d))*(|a(a)*))|(ac))|d)
+OK
+
+===========================================================
+Empty regex
+Empty regex
+Empty regex
+Results for ((?=(?=a)d$)cbc)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (((?=a|bd)(?=c$)a|b)*)*: 
+Words true: 25/25
+OK
+
+Test output regex (|b(b)*)
+OK
+
+===========================================================
+Results for (?=(?=a$)b|d$)((?=b$)a)*|c: 
+Words true: 25/25
+OK
+
+Test output regex (c)
+OK
+
+===========================================================
+Results for ((?=c)c)*|bdbad: 
+Words true: 25/25
+OK
+
+Test output regex ((|c(c)*)|((((bd)b)a)d))
+OK
+
+===========================================================
+Empty regex
+Results for ((?=(?=a$)a|a)(?=d$)bd)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (((?=c)cd|(?=c$)c)*)*: 
+Words true: 21/25
+Problem words:
+"ccd"
+"ccd"
+"ccd"
+"ccd"
+
+===========================================================
+Results for (aa|a)*d|(?=d$)a: 
+Words true: 25/25
+OK
+
+Test output regex (((d|(aa)((aa))*d)|(a|(aa)((aa))*a)((a|(aa)((aa))*a))*(d|(aa)((aa))*d)))
+OK
+
+===========================================================
+Results for ((?=d)cc|abd)*: 
+Words true: 25/25
+OK
+
+Test output regex (|((ab)d)(((ab)d))*)
+OK
+
+===========================================================
+Results for (dbbd)*|(cad)*: 
+Words true: 25/25
+OK
+
+Test output regex ((|(((db)b)d)((((db)b)d))*)|((ca)d)(((ca)d))*)
+OK
+
+===========================================================
+Results for (((?=c)a|c|dcc)*)*: 
+Words true: 25/25
+OK
+
+Test output regex ((|c(c)*)|(((d|c(c)*d)c)c)((((d|c(c)*d)c)c))*(|c(c)*))
+OK
+
+===========================================================
+Results for ((?=d)bab(c|c)*c)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (?=(a|b)*$)(?=a)c|abc: 
+Words true: 25/25
+OK
+
+Test output regex (((ab)c))
+OK
+
+===========================================================
+Results for a|bdc|(d|a|c)*: 
+Words true: 25/25
+OK
+
+Test output regex (((((|a)|((bd)c))|d(d)*)|(a|d(d)*a)((a|d(d)*a))*(|d(d)*))|((c|d(d)*c)|(a|d(d)*a)((a|d(d)*a))*(c|d(d)*c))(((c|d(d)*c)|(a|d(d)*a)((a|d(d)*a))*(c|d(d)*c)))*((|d(d)*)|(a|d(d)*a)((a|d(d)*a))*(|d(d)*)))
+OK
+
+===========================================================
+Results for ((cbc)*a(dad)*)*: 
+Words true: 25/25
+OK
+
+Test output regex ((|(a|((cb)c)(((cb)c))*a)((a|((cb)c)(((cb)c))*a))*)|((((a|((cb)c)(((cb)c))*a)((a|((cb)c)(((cb)c))*a))*d)a)d)((((d|(a|((cb)c)(((cb)c))*a)((a|((cb)c)(((cb)c))*a))*d)a)d))*(|(a|((cb)c)(((cb)c))*a)((a|((cb)c)(((cb)c))*a))*))
+OK
+
+===========================================================
+Empty regex
+Results for ((?=a|c$)ba)*(?=d)d: 
+Words true: 25/25
+OK
+
+Test output regex (d)
+OK
+
+===========================================================
+Results for (?=(((?=c$)a)*)*)(?=a)a|d: 
+Words true: 25/25
+OK
+
+Test output regex ((a)|d)
+OK
+
+===========================================================
+Empty regex
+Results for (((?=c|b)(?=c$)b(?=c$)d)*)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (?=c)b|d((?=a)b)*|c: 
+Words true: 25/25
+OK
+
+Test output regex ((d)|c)
+OK
+
+===========================================================
+Results for (?=db$)c|c|(?=b$)a: 
+Words true: 25/25
+OK
+
+Test output regex (c)
+OK
+
+===========================================================
+Results for (((?=c$)dd|a(?=d$)c)*)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for ((?=d)bc|a)*|((?=c)a)*: 
+Words true: 25/25
+OK
+
+Test output regex (|a(a)*)
+OK
+
+===========================================================
+Empty regex
+Results for ((?=(b|d|a)*$)((?=b$)b)*)*: 
+Words true: 25/25
+OK
+
+Test output regex (|b(b)*)
+OK
+
+===========================================================
+Results for (?=c$)cc|(?=c$)c: 
+Words true: 25/25
+OK
+
+Test output regex (c)
+OK
+
+===========================================================
+Empty regex
+Results for (((?=bc$)ab)*(?=a)d)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for ((?=c)b|d|(?=b)c)*: 
+Words true: 25/25
+OK
+
+Test output regex (|d(d)*)
+OK
+
+===========================================================
+Results for (c|c)*|d|b|((a|b)*c)*: 
+Words true: 25/25
+OK
+
+Test output regex (((((|c(c)*)|(c|c(c)*c)((c|c(c)*c))*(|c(c)*))|d)|b)|((c|a(a)*c)|(b|a(a)*b)((b|a(a)*b))*(c|a(a)*c))(((c|a(a)*c)|(b|a(a)*b)((b|a(a)*b))*(c|a(a)*c)))*)
+OK
+
+===========================================================
+Results for ((?=b)cc|((?=d)dd)*)*: 
+Words true: 25/25
+OK
+
+Test output regex (|(dd)((dd))*)
+OK
+
+===========================================================
+Results for (?=((a|a)*d)*$)((b|aa)*)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (a|c)*cd|b|b|c: 
+Words true: 25/25
+OK
+
+Test output regex (((((((c|a(a)*c)|(c|a(a)*c)((c|a(a)*c))*(c|a(a)*c))d))|b)|b)|c)
+OK
+
+===========================================================
+Results for (((?=a|c$)d|c|bad)*)*: 
+Words true: 25/25
+OK
+
+Test output regex ((|c(c)*)|(((b|c(c)*b)a)d)((((b|c(c)*b)a)d))*(|c(c)*))
+OK
+
+===========================================================
+Results for bc|c|ba|d|c: 
+Words true: 25/25
+OK
+
+Test output regex ((((((bc))|c)|(ba))|d)|c)
+OK
+
+===========================================================
+Results for (((?=(?=b)c)bd)*((?=a$)cb)*)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (((?=b|a$)(?=a$)c)*)*(((?=c)a)*)*: 
+Words true: 25/25
+OK
+
+Test output regex 
+OK
+
+===========================================================
+Results for (((?=dcd)a|dd)*)*: 
+Words true: 25/25
+OK
+
+Test output regex (|(dd)((dd))*)
+OK
+
+===========================================================
