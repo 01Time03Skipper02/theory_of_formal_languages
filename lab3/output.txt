@@ -1,0 +1,6 @@
+a(b)*c(a)*ac
+a(b)*c(a)*c
+a(b)*bc(a)*ac
+a(b)*bc(a)*c
+a(b)*bbc(a)*ac
+a(b)*bbc(a)*c
